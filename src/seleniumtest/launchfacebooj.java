@@ -32,8 +32,8 @@ public class launchfacebooj {
         // Enter login credentials and click on the "Log In" button
         WebElement email = driver.findElement(By.id("email"));
         WebElement password = driver.findElement(By.id("pass"));
-        email.sendKeys("ida.ohlsson@live.se");
-        password.sendKeys("99edithminhund99");
+        email.sendKeys("email");
+        password.sendKeys("password");
         driver.findElement(By.id("loginbutton")).click(); 2
 
 
