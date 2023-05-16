@@ -21,8 +21,8 @@ public class post {public static void main(String[] args) {
         WebElement passwordInput = driver.findElement(By.id("pass"));
 
         // Enter your Facebook email and password
-        emailInput.sendKeys("ida.ohlsson@live.se);
-        passwordInput.sendKeys("99edithminhund99");
+        emailInput.sendKeys("email");
+        passwordInput.sendKeys("password");
 
         // Find the login button and click it
         WebElement loginButton = driver.findElement(By.name("login"));
